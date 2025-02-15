@@ -1,0 +1,45 @@
+[gd_scene load_steps=3 format=3 uid="uid://bgeoyb8yyq6cm"]
+
+[sub_resource type="Gradient" id="Gradient_bgk35"]
+colors = PackedColorArray(1, 0.494118, 0.372549, 1, 0.996078, 0.705882, 0.482353, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_056rw"]
+gradient = SubResource("Gradient_bgk35")
+fill_from = Vector2(0, 1)
+
+[node name="Main" type="Node"]
+
+[node name="Desktop" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="Desktop"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_056rw")
+
+[node name="Taskbar" type="Control" parent="Desktop"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -40.0
+offset_right = 20.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Desktop/Taskbar"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
