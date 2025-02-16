@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgnytivh8k46b"]
+
+[ext_resource type="Texture2D" uid="uid://er87ci5c3lij" path="res://Aquarium/Fish_Type_1/ComfyUI_00066_-removebg-preview.png" id="1_5t1i1"]
+[ext_resource type="Script" path="res://Aquarium/fish.gd" id="2_ur4l1"]
+
+[node name="Fish_Type1" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+auto_translate_mode = 1
+position = Vector2(-13, 93)
+scale = Vector2(0.373, 0.273534)
+texture = ExtResource("1_5t1i1")
+script = ExtResource("2_ur4l1")

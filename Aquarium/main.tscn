@@ -1,0 +1,19 @@
+[gd_scene load_steps=6 format=3 uid="uid://bvntr5xcsa1qg"]
+
+[ext_resource type="PackedScene" uid="uid://dgnytivh8k46b" path="res://Aquarium/Fish_Type_1/fish_type_1.tscn" id="1_iiwpc"]
+[ext_resource type="PackedScene" uid="uid://b2ym6q86mi8bl" path="res://Aquarium/BG/BG.tscn" id="1_yexut"]
+[ext_resource type="PackedScene" uid="uid://b41yqxah18ssb" path="res://Aquarium/fish_type_2/fish_type_2.tscn" id="2_mi004"]
+[ext_resource type="PackedScene" uid="uid://b5g0l8c7bxsj4" path="res://Aquarium/Fish_type_3/fish_type_3.tscn" id="3_tdx03"]
+[ext_resource type="PackedScene" uid="uid://cveaqk0h4uqjp" path="res://Aquarium/fish_type_4/fish_type_4.tscn" id="4_exht6"]
+
+[node name="main" type="Node2D"]
+
+[node name="BG" parent="." instance=ExtResource("1_yexut")]
+
+[node name="Fish_Type1" parent="." instance=ExtResource("1_iiwpc")]
+
+[node name="Fish_Type2" parent="." instance=ExtResource("2_mi004")]
+
+[node name="Fish_Type3" parent="." instance=ExtResource("3_tdx03")]
+
+[node name="Fish_Type4" parent="." instance=ExtResource("4_exht6")]

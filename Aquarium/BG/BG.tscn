@@ -1,0 +1,621 @@
+[gd_scene load_steps=153 format=3 uid="uid://b2ym6q86mi8bl"]
+
+[ext_resource type="Texture2D" uid="uid://bvn2l3onngfwg" path="res://Aquarium/BG/frames/tile000.png" id="1_dnkwj"]
+[ext_resource type="Texture2D" uid="uid://bkgoct1nrcajv" path="res://Aquarium/BG/frames/tile001.png" id="2_4rom3"]
+[ext_resource type="Texture2D" uid="uid://cplw5a3l2u5jm" path="res://Aquarium/BG/frames/tile002.png" id="3_4n04y"]
+[ext_resource type="Texture2D" uid="uid://ftmufnbmqiq1" path="res://Aquarium/BG/frames/tile003.png" id="4_7646r"]
+[ext_resource type="Texture2D" uid="uid://c6chlq7lmxplq" path="res://Aquarium/BG/frames/tile004.png" id="5_1j2fg"]
+[ext_resource type="Texture2D" uid="uid://bq53hn46kcmiw" path="res://Aquarium/BG/frames/tile005.png" id="6_u5o6w"]
+[ext_resource type="Texture2D" uid="uid://5i4wcawj0egv" path="res://Aquarium/BG/frames/tile006.png" id="7_o71yn"]
+[ext_resource type="Texture2D" uid="uid://dav1mhd3pma1v" path="res://Aquarium/BG/frames/tile007.png" id="8_pgtp2"]
+[ext_resource type="Texture2D" uid="uid://1f6t5y1xlbjc" path="res://Aquarium/BG/frames/tile008.png" id="9_2bts0"]
+[ext_resource type="Texture2D" uid="uid://c717e3n0gjs4r" path="res://Aquarium/BG/frames/tile009.png" id="10_3e8lt"]
+[ext_resource type="Texture2D" uid="uid://c3pvy4h30qkrp" path="res://Aquarium/BG/frames/tile010.png" id="11_b6qlm"]
+[ext_resource type="Texture2D" uid="uid://ywx7f6vifa4a" path="res://Aquarium/BG/frames/tile011.png" id="12_6k8l0"]
+[ext_resource type="Texture2D" uid="uid://cnar8pvttj0vr" path="res://Aquarium/BG/frames/tile012.png" id="13_vcjq8"]
+[ext_resource type="Texture2D" uid="uid://c8r21mi7j373b" path="res://Aquarium/BG/frames/tile013.png" id="14_rv8uk"]
+[ext_resource type="Texture2D" uid="uid://ctrkf8tia53ks" path="res://Aquarium/BG/frames/tile014.png" id="15_mm6nm"]
+[ext_resource type="Texture2D" uid="uid://cj6jk0ktvnewk" path="res://Aquarium/BG/frames/tile015.png" id="16_ql2nx"]
+[ext_resource type="Texture2D" uid="uid://c680bd2mixr0e" path="res://Aquarium/BG/frames/tile016.png" id="17_4woub"]
+[ext_resource type="Texture2D" uid="uid://dygkg21h5poyv" path="res://Aquarium/BG/frames/tile017.png" id="18_wcyjp"]
+[ext_resource type="Texture2D" uid="uid://be8bd8bwunk8c" path="res://Aquarium/BG/frames/tile018.png" id="19_j135l"]
+[ext_resource type="Texture2D" uid="uid://dex87j1n08685" path="res://Aquarium/BG/frames/tile019.png" id="20_0wwv0"]
+[ext_resource type="Texture2D" uid="uid://csrejhpqyvvvy" path="res://Aquarium/BG/frames/tile020.png" id="21_tld3s"]
+[ext_resource type="Texture2D" uid="uid://c57hbxsx48i37" path="res://Aquarium/BG/frames/tile021.png" id="22_oqw0l"]
+[ext_resource type="Texture2D" uid="uid://1e4g1kd2ikay" path="res://Aquarium/BG/frames/tile022.png" id="23_f6j2c"]
+[ext_resource type="Texture2D" uid="uid://dbr28qq7aistu" path="res://Aquarium/BG/frames/tile023.png" id="24_82clt"]
+[ext_resource type="Texture2D" uid="uid://dyv71rmc17sow" path="res://Aquarium/BG/frames/tile024.png" id="25_iew3d"]
+[ext_resource type="Texture2D" uid="uid://bgcmj1gc17p50" path="res://Aquarium/BG/frames/tile025.png" id="26_vwakd"]
+[ext_resource type="Texture2D" uid="uid://j2s7co7kwy5f" path="res://Aquarium/BG/frames/tile026.png" id="27_o0goo"]
+[ext_resource type="Texture2D" uid="uid://dacuxu7l5wpyu" path="res://Aquarium/BG/frames/tile027.png" id="28_rtn0c"]
+[ext_resource type="Texture2D" uid="uid://ww6dhv3k5nx5" path="res://Aquarium/BG/frames/tile028.png" id="29_j47ty"]
+[ext_resource type="Texture2D" uid="uid://cytt3t0h371o8" path="res://Aquarium/BG/frames/tile029.png" id="30_kwilw"]
+[ext_resource type="Texture2D" uid="uid://cmu8kyubt14yo" path="res://Aquarium/BG/frames/tile030.png" id="31_rsc27"]
+[ext_resource type="Texture2D" uid="uid://bogdtmsxoly0g" path="res://Aquarium/BG/frames/tile031.png" id="32_frlvy"]
+[ext_resource type="Texture2D" uid="uid://bmyd5ttsr3ta3" path="res://Aquarium/BG/frames/tile032.png" id="33_14p3k"]
+[ext_resource type="Texture2D" uid="uid://k8c11ewoy7h7" path="res://Aquarium/BG/frames/tile033.png" id="34_aif0v"]
+[ext_resource type="Texture2D" uid="uid://be0p4jc2d27bk" path="res://Aquarium/BG/frames/tile034.png" id="35_rywbk"]
+[ext_resource type="Texture2D" uid="uid://j1yxf4n1e0qv" path="res://Aquarium/BG/frames/tile035.png" id="36_dcndh"]
+[ext_resource type="Texture2D" uid="uid://deajg7xaklyv" path="res://Aquarium/BG/frames/tile036.png" id="37_vujua"]
+[ext_resource type="Texture2D" uid="uid://1qkltw8e4bsx" path="res://Aquarium/BG/frames/tile037.png" id="38_vknl4"]
+[ext_resource type="Texture2D" uid="uid://ducsr2301cols" path="res://Aquarium/BG/frames/tile038.png" id="39_ytcfe"]
+[ext_resource type="Texture2D" uid="uid://bm4ijb2dym0m4" path="res://Aquarium/BG/frames/tile039.png" id="40_xsrcy"]
+[ext_resource type="Texture2D" uid="uid://5dj36buwtv3x" path="res://Aquarium/BG/frames/tile040.png" id="41_qcc82"]
+[ext_resource type="Texture2D" uid="uid://b7dbejba5klwe" path="res://Aquarium/BG/frames/tile041.png" id="42_4gpyb"]
+[ext_resource type="Texture2D" uid="uid://bixdhyp85bc6e" path="res://Aquarium/BG/frames/tile042.png" id="43_avcg6"]
+[ext_resource type="Texture2D" uid="uid://bw81m6sbb3mtx" path="res://Aquarium/BG/frames/tile043.png" id="44_wkh6h"]
+[ext_resource type="Texture2D" uid="uid://c6x14o723fw66" path="res://Aquarium/BG/frames/tile044.png" id="45_2rx01"]
+[ext_resource type="Texture2D" uid="uid://dogh38jcqpafd" path="res://Aquarium/BG/frames/tile045.png" id="46_fnwm5"]
+[ext_resource type="Texture2D" uid="uid://d0us040n6nhe1" path="res://Aquarium/BG/frames/tile046.png" id="47_jhbo5"]
+[ext_resource type="Texture2D" uid="uid://454p4scj3xim" path="res://Aquarium/BG/frames/tile047.png" id="48_xv015"]
+[ext_resource type="Texture2D" uid="uid://dprhmfkee8wlq" path="res://Aquarium/BG/frames/tile048.png" id="49_7mqo5"]
+[ext_resource type="Texture2D" uid="uid://cih5grwnqqbsf" path="res://Aquarium/BG/frames/tile049.png" id="50_xrejr"]
+[ext_resource type="Texture2D" uid="uid://b5maea2ic24km" path="res://Aquarium/BG/frames/tile050.png" id="51_l35yq"]
+[ext_resource type="Texture2D" uid="uid://bb2je12ev4cx8" path="res://Aquarium/BG/frames/tile051.png" id="52_5ft3t"]
+[ext_resource type="Texture2D" uid="uid://dvb43shjctvkc" path="res://Aquarium/BG/frames/tile052.png" id="53_fdji1"]
+[ext_resource type="Texture2D" uid="uid://q52a4ddgn335" path="res://Aquarium/BG/frames/tile053.png" id="54_vuaep"]
+[ext_resource type="Texture2D" uid="uid://b1r00a7yv64px" path="res://Aquarium/BG/frames/tile054.png" id="55_h1mhc"]
+[ext_resource type="Texture2D" uid="uid://d18eq7k7q321y" path="res://Aquarium/BG/frames/tile055.png" id="56_se2gy"]
+[ext_resource type="Texture2D" uid="uid://cea7if8nqq5yy" path="res://Aquarium/BG/frames/tile056.png" id="57_a7455"]
+[ext_resource type="Texture2D" uid="uid://bodajpgjgpadp" path="res://Aquarium/BG/frames/tile057.png" id="58_4medi"]
+[ext_resource type="Texture2D" uid="uid://b20l6pdtsou7k" path="res://Aquarium/BG/frames/tile058.png" id="59_afvyc"]
+[ext_resource type="Texture2D" uid="uid://bel0a1u2ghh22" path="res://Aquarium/BG/frames/tile059.png" id="60_xausd"]
+[ext_resource type="Texture2D" uid="uid://du0y35jcryh0x" path="res://Aquarium/BG/frames/tile060.png" id="61_0iieg"]
+[ext_resource type="Texture2D" uid="uid://w42u8b4j18j" path="res://Aquarium/BG/frames/tile061.png" id="62_4i2tq"]
+[ext_resource type="Texture2D" uid="uid://bdfgrq3jgfjst" path="res://Aquarium/BG/frames/tile062.png" id="63_5210h"]
+[ext_resource type="Texture2D" uid="uid://bmfxwoj5l6cdn" path="res://Aquarium/BG/frames/tile063.png" id="64_ry1h4"]
+[ext_resource type="Texture2D" uid="uid://c5lt1oh5r713d" path="res://Aquarium/BG/frames/tile064.png" id="65_wpwkt"]
+[ext_resource type="Texture2D" uid="uid://1omdwc4i3nwd" path="res://Aquarium/BG/frames/tile065.png" id="66_gaknx"]
+[ext_resource type="Texture2D" uid="uid://ct64rq5a7qrak" path="res://Aquarium/BG/frames/tile066.png" id="67_o561a"]
+[ext_resource type="Texture2D" uid="uid://bcal445gkeiqf" path="res://Aquarium/BG/frames/tile067.png" id="68_a2k6j"]
+[ext_resource type="Texture2D" uid="uid://csjastcdtdbd6" path="res://Aquarium/BG/frames/tile068.png" id="69_xgai3"]
+[ext_resource type="Texture2D" uid="uid://5h1mt4qju0bj" path="res://Aquarium/BG/frames/tile069.png" id="70_we7q0"]
+[ext_resource type="Texture2D" uid="uid://dv3ane4hcf0xi" path="res://Aquarium/BG/frames/tile070.png" id="71_5plsg"]
+[ext_resource type="Texture2D" uid="uid://dgv6xu1j53qmy" path="res://Aquarium/BG/frames/tile071.png" id="72_5bqlb"]
+[ext_resource type="Texture2D" uid="uid://db0m0nfmn6ktt" path="res://Aquarium/BG/frames/tile072.png" id="73_gtlbx"]
+[ext_resource type="Texture2D" uid="uid://th2w3cc2o2ob" path="res://Aquarium/BG/frames/tile073.png" id="74_hd25d"]
+[ext_resource type="Texture2D" uid="uid://rnrawtrr2axk" path="res://Aquarium/BG/frames/tile074.png" id="75_mtl04"]
+[ext_resource type="Texture2D" uid="uid://cjjeikrgl27j0" path="res://Aquarium/BG/frames/tile075.png" id="76_evtmv"]
+[ext_resource type="Texture2D" uid="uid://d30v7yi5b16hh" path="res://Aquarium/BG/frames/tile076.png" id="77_s5jt0"]
+[ext_resource type="Texture2D" uid="uid://cqk3hpy8f3304" path="res://Aquarium/BG/frames/tile077.png" id="78_auldb"]
+[ext_resource type="Texture2D" uid="uid://djsf1ilkv4kw5" path="res://Aquarium/BG/frames/tile078.png" id="79_ms4g6"]
+[ext_resource type="Texture2D" uid="uid://myupswlpe1os" path="res://Aquarium/BG/frames/tile079.png" id="80_hhcc8"]
+[ext_resource type="Texture2D" uid="uid://1qnh8domtfgq" path="res://Aquarium/BG/frames/tile080.png" id="81_5fghb"]
+[ext_resource type="Texture2D" uid="uid://bhqa3dubgjd1t" path="res://Aquarium/BG/frames/tile081.png" id="82_1cexf"]
+[ext_resource type="Texture2D" uid="uid://bpwuimpywke8o" path="res://Aquarium/BG/frames/tile082.png" id="83_ho7a4"]
+[ext_resource type="Texture2D" uid="uid://cu6l7miqcrrdt" path="res://Aquarium/BG/frames/tile083.png" id="84_s25as"]
+[ext_resource type="Texture2D" uid="uid://cc8bno0dd4osa" path="res://Aquarium/BG/frames/tile084.png" id="85_fdt0j"]
+[ext_resource type="Texture2D" uid="uid://b03k5jbsj2gy2" path="res://Aquarium/BG/frames/tile085.png" id="86_ok4xk"]
+[ext_resource type="Texture2D" uid="uid://b7r8qi05psmes" path="res://Aquarium/BG/frames/tile086.png" id="87_1r5al"]
+[ext_resource type="Texture2D" uid="uid://dpn7djkgsagx6" path="res://Aquarium/BG/frames/tile087.png" id="88_253ol"]
+[ext_resource type="Texture2D" uid="uid://c58e4tke7u2ti" path="res://Aquarium/BG/frames/tile088.png" id="89_s0vu8"]
+[ext_resource type="Texture2D" uid="uid://t48u043c0kri" path="res://Aquarium/BG/frames/tile089.png" id="90_txu33"]
+[ext_resource type="Texture2D" uid="uid://bh8n8altql1dj" path="res://Aquarium/BG/frames/tile090.png" id="91_d38xc"]
+[ext_resource type="Texture2D" uid="uid://c1nsewldnq5yf" path="res://Aquarium/BG/frames/tile091.png" id="92_gdl47"]
+[ext_resource type="Texture2D" uid="uid://3ky3x7q0w3s7" path="res://Aquarium/BG/frames/tile092.png" id="93_jt3kl"]
+[ext_resource type="Texture2D" uid="uid://x21b1u6e0yu5" path="res://Aquarium/BG/frames/tile093.png" id="94_5twmo"]
+[ext_resource type="Texture2D" uid="uid://b2irjwbxut3y2" path="res://Aquarium/BG/frames/tile094.png" id="95_3j4me"]
+[ext_resource type="Texture2D" uid="uid://co57ppvchovee" path="res://Aquarium/BG/frames/tile095.png" id="96_0avbu"]
+[ext_resource type="Texture2D" uid="uid://2e2clvcws3r1" path="res://Aquarium/BG/frames/tile096.png" id="97_amh4k"]
+[ext_resource type="Texture2D" uid="uid://bpbrngrd7di5y" path="res://Aquarium/BG/frames/tile097.png" id="98_e1dpl"]
+[ext_resource type="Texture2D" uid="uid://draev5rpklpit" path="res://Aquarium/BG/frames/tile098.png" id="99_hew07"]
+[ext_resource type="Texture2D" uid="uid://j6msrlk2vm36" path="res://Aquarium/BG/frames/tile099.png" id="100_68oij"]
+[ext_resource type="Texture2D" uid="uid://dpr0fwtrvikig" path="res://Aquarium/BG/frames/tile100.png" id="101_uqgn2"]
+[ext_resource type="Texture2D" uid="uid://cbuhnrt1m011" path="res://Aquarium/BG/frames/tile101.png" id="102_yivu5"]
+[ext_resource type="Texture2D" uid="uid://55yj7865clhv" path="res://Aquarium/BG/frames/tile102.png" id="103_xoj45"]
+[ext_resource type="Texture2D" uid="uid://dvuw4x0whnipv" path="res://Aquarium/BG/frames/tile103.png" id="104_j0d3y"]
+[ext_resource type="Texture2D" uid="uid://dxposfeep1bq0" path="res://Aquarium/BG/frames/tile104.png" id="105_sxn80"]
+[ext_resource type="Texture2D" uid="uid://cl87op44srdbg" path="res://Aquarium/BG/frames/tile105.png" id="106_qn0i1"]
+[ext_resource type="Texture2D" uid="uid://ccvl5vil28p50" path="res://Aquarium/BG/frames/tile106.png" id="107_ai84o"]
+[ext_resource type="Texture2D" uid="uid://c7w4nq0locf7t" path="res://Aquarium/BG/frames/tile107.png" id="108_luyi2"]
+[ext_resource type="Texture2D" uid="uid://cqrikxql8y758" path="res://Aquarium/BG/frames/tile108.png" id="109_sg2li"]
+[ext_resource type="Texture2D" uid="uid://de4jlqo7tc4fa" path="res://Aquarium/BG/frames/tile109.png" id="110_ihf7a"]
+[ext_resource type="Texture2D" uid="uid://bu1xluwytphde" path="res://Aquarium/BG/frames/tile110.png" id="111_70itd"]
+[ext_resource type="Texture2D" uid="uid://bkhg4fr0wybgn" path="res://Aquarium/BG/frames/tile111.png" id="112_uh1u4"]
+[ext_resource type="Texture2D" uid="uid://c6moeclh4t2t6" path="res://Aquarium/BG/frames/tile112.png" id="113_wimts"]
+[ext_resource type="Texture2D" uid="uid://chh7cy0c1k5br" path="res://Aquarium/BG/frames/tile113.png" id="114_qtl73"]
+[ext_resource type="Texture2D" uid="uid://dbtit2oe5250s" path="res://Aquarium/BG/frames/tile114.png" id="115_l4c4l"]
+[ext_resource type="Texture2D" uid="uid://daddfrgt74elf" path="res://Aquarium/BG/frames/tile115.png" id="116_rryvx"]
+[ext_resource type="Texture2D" uid="uid://c1il5t5gwdrr1" path="res://Aquarium/BG/frames/tile116.png" id="117_r7art"]
+[ext_resource type="Texture2D" uid="uid://bi2jdwpsqh4c5" path="res://Aquarium/BG/frames/tile117.png" id="118_niihj"]
+[ext_resource type="Texture2D" uid="uid://c8cp37xg8jgsu" path="res://Aquarium/BG/frames/tile118.png" id="119_e03jo"]
+[ext_resource type="Texture2D" uid="uid://cuxsg7gv2kiew" path="res://Aquarium/BG/frames/tile119.png" id="120_06mwn"]
+[ext_resource type="Texture2D" uid="uid://cn7gvh0hdr85e" path="res://Aquarium/BG/frames/tile120.png" id="121_12va2"]
+[ext_resource type="Texture2D" uid="uid://ciye6kl0vuion" path="res://Aquarium/BG/frames/tile121.png" id="122_avvxe"]
+[ext_resource type="Texture2D" uid="uid://bhfnqjtwj8mkv" path="res://Aquarium/BG/frames/tile122.png" id="123_2eknb"]
+[ext_resource type="Texture2D" uid="uid://dun1ig7jgn50c" path="res://Aquarium/BG/frames/tile123.png" id="124_udk6q"]
+[ext_resource type="Texture2D" uid="uid://h6rfjdqkpkbw" path="res://Aquarium/BG/frames/tile124.png" id="125_6vp6f"]
+[ext_resource type="Texture2D" uid="uid://c0gy1fqtu0qyu" path="res://Aquarium/BG/frames/tile125.png" id="126_2083t"]
+[ext_resource type="Texture2D" uid="uid://dqg6gdm2qp0go" path="res://Aquarium/BG/frames/tile126.png" id="127_2svu6"]
+[ext_resource type="Texture2D" uid="uid://bf78k0wys8whi" path="res://Aquarium/BG/frames/tile127.png" id="128_bo08i"]
+[ext_resource type="Texture2D" uid="uid://bhsx8ses2d2in" path="res://Aquarium/BG/frames/tile128.png" id="129_ml0ia"]
+[ext_resource type="Texture2D" uid="uid://c2le1udj41qth" path="res://Aquarium/BG/frames/tile129.png" id="130_apxab"]
+[ext_resource type="Texture2D" uid="uid://85346qblitnh" path="res://Aquarium/BG/frames/tile130.png" id="131_d5nsv"]
+[ext_resource type="Texture2D" uid="uid://b4jm8p3booagt" path="res://Aquarium/BG/frames/tile131.png" id="132_jud8o"]
+[ext_resource type="Texture2D" uid="uid://dgqnk8pfyvtn0" path="res://Aquarium/BG/frames/tile132.png" id="133_eck1a"]
+[ext_resource type="Texture2D" uid="uid://xfk3oy2hnfyd" path="res://Aquarium/BG/frames/tile133.png" id="134_egtbc"]
+[ext_resource type="Texture2D" uid="uid://nhugy7c7p06m" path="res://Aquarium/BG/frames/tile134.png" id="135_sxhtb"]
+[ext_resource type="Texture2D" uid="uid://c85lnir1bt3xm" path="res://Aquarium/BG/frames/tile135.png" id="136_s7bdq"]
+[ext_resource type="Texture2D" uid="uid://cvgoheimadwg0" path="res://Aquarium/BG/frames/tile136.png" id="137_41d8d"]
+[ext_resource type="Texture2D" uid="uid://ciy2nvmyopx77" path="res://Aquarium/BG/frames/tile137.png" id="138_lamgf"]
+[ext_resource type="Texture2D" uid="uid://dwkpm8s4m4yb6" path="res://Aquarium/BG/frames/tile138.png" id="139_2i8vg"]
+[ext_resource type="Texture2D" uid="uid://divxxwc11xfke" path="res://Aquarium/BG/frames/tile139.png" id="140_wrxwu"]
+[ext_resource type="Texture2D" uid="uid://csdx3ry2vcyww" path="res://Aquarium/BG/frames/tile140.png" id="141_v3646"]
+[ext_resource type="Texture2D" uid="uid://dsfx8bwvpoi4p" path="res://Aquarium/BG/frames/tile141.png" id="142_i0i5a"]
+[ext_resource type="Texture2D" uid="uid://be5dbrivwxliq" path="res://Aquarium/BG/frames/tile142.png" id="143_j1shx"]
+[ext_resource type="Texture2D" uid="uid://cl5pv8p6tn212" path="res://Aquarium/BG/frames/tile143.png" id="144_ggsam"]
+[ext_resource type="Texture2D" uid="uid://cn38hrge4tyhd" path="res://Aquarium/BG/frames/tile144.png" id="145_nx75p"]
+[ext_resource type="Texture2D" uid="uid://bnweiddint22t" path="res://Aquarium/BG/frames/tile145.png" id="146_xvhny"]
+[ext_resource type="Texture2D" uid="uid://ccr7j2bfk5t0u" path="res://Aquarium/BG/frames/tile146.png" id="147_btte1"]
+[ext_resource type="Texture2D" uid="uid://cnfqt2dywx56m" path="res://Aquarium/BG/frames/tile147.png" id="148_70dai"]
+[ext_resource type="Texture2D" uid="uid://62utqhjuygr5" path="res://Aquarium/BG/frames/tile148.png" id="149_qj3cg"]
+[ext_resource type="Texture2D" uid="uid://cpl4yriwtxnmq" path="res://Aquarium/BG/frames/tile149.png" id="150_bnr7n"]
+[ext_resource type="Script" path="res://Aquarium/BG/animated_sprite_2d.gd" id="151_v70j5"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8d17e"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_dnkwj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_4rom3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_4n04y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7646r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1j2fg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_u5o6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_o71yn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_pgtp2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_2bts0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_3e8lt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_b6qlm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_6k8l0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_vcjq8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_rv8uk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_mm6nm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ql2nx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_4woub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_wcyjp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_j135l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_0wwv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_tld3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_oqw0l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_f6j2c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_82clt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_iew3d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vwakd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_o0goo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_rtn0c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_j47ty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_kwilw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_rsc27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_frlvy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_14p3k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_aif0v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_rywbk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_dcndh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_vujua")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_vknl4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_ytcfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_xsrcy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_qcc82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_4gpyb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_avcg6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_wkh6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_2rx01")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_fnwm5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_jhbo5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_xv015")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_7mqo5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_xrejr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_l35yq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_5ft3t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_fdji1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_vuaep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_h1mhc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_se2gy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_a7455")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_4medi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_afvyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_xausd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_0iieg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_4i2tq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_5210h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_ry1h4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_wpwkt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_gaknx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_o561a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_a2k6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_xgai3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_we7q0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_5plsg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_5bqlb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_gtlbx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_hd25d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_mtl04")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_evtmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_s5jt0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_auldb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_ms4g6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_hhcc8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_5fghb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_1cexf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_ho7a4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_s25as")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_fdt0j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_ok4xk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_1r5al")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_253ol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_s0vu8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_txu33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_d38xc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_gdl47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_jt3kl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_5twmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_3j4me")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_0avbu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_amh4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_e1dpl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_hew07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_68oij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_uqgn2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_yivu5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_xoj45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_j0d3y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_sxn80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_qn0i1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_ai84o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_luyi2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_sg2li")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_ihf7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_70itd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_uh1u4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_wimts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_qtl73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_l4c4l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_rryvx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_r7art")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_niihj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_e03jo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_06mwn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_12va2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_avvxe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_2eknb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_udk6q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_6vp6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_2083t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_2svu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_bo08i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_ml0ia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_apxab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_d5nsv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_jud8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_eck1a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_egtbc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_sxhtb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_s7bdq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_41d8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_lamgf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_2i8vg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_wrxwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_v3646")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_i0i5a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_j1shx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_ggsam")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_nx75p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_xvhny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_btte1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_70dai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_qj3cg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_bnr7n")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="BG" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(577.111, 324.5)
+scale = Vector2(3.59444, 3.59444)
+sprite_frames = SubResource("SpriteFrames_8d17e")
+frame_progress = 0.147469
+speed_scale = 2.0
+script = ExtResource("151_v70j5")
