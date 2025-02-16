@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://c8mnghlt4id44"]
+[gd_scene load_steps=8 format=3 uid="uid://c8mnghlt4id44"]
 
 [ext_resource type="Script" path="res://desktop/cube.gd" id="1_24dtf"]
-[ext_resource type="Script" path="res://desktop/cube/menu_bar.gd" id="2_sgema"]
+[ext_resource type="Script" path="res://desktop/cube/popup_menu.gd" id="2_4yup1"]
+[ext_resource type="Script" path="res://desktop/cube/button.gd" id="2_5lpxn"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aedm1"]
 albedo_color = Color(0.00784314, 1, 1, 1)
@@ -42,8 +43,17 @@ offset_top = -1.0
 offset_bottom = -1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("2_sgema")
 
 [node name="PopupMenu" type="PopupMenu" parent="MenuBar"]
+visible = true
 hide_on_item_selection = false
 hide_on_checkable_item_selection = false
+item_count = 1
+script = ExtResource("2_4yup1")
+
+[node name="Button" type="Button" parent="MenuBar/PopupMenu"]
+offset_right = 100.0
+offset_bottom = 20.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+script = ExtResource("2_5lpxn")
