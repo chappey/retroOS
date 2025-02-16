@@ -2,6 +2,7 @@ extends Control
 
 
 @onready var taskbar := $Taskbar
+@onready var menu_button := $Taskbar/MenuButton
 
 enum Progs {ABOUT=4, AI=1, TXT_ED=2, CUBE=3, TICTAC=5}
 
@@ -11,10 +12,9 @@ enum Progs {ABOUT=4, AI=1, TXT_ED=2, CUBE=3, TICTAC=5}
 
 
 func _ready() -> void:
-	$Taskbar/MenuButton.get_popup().connect(&"id_pressed", func(id: int):
+	menu_button.get_popup().connect(&"id_pressed", func(id: int):
 		match id:
 			Progs.ABOUT:
-				print("woweijfkwejfrewklfjweklfwrej")
 				window[Progs.ABOUT].show()
 			Progs.AI:
 				window[Progs.AI].show()

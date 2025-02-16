@@ -3,57 +3,85 @@
 [ext_resource type="Script" path="res://tic-tac-toe/board.gd" id="1_4tp4r"]
 [ext_resource type="Script" path="res://tic-tac-toe/Cell.gd" id="2_g38p6"]
 
-[node name="Main" type="Node2D"]
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1_4tp4r")
 
 [node name="GridContainer" type="GridContainer" parent="."]
-offset_right = 608.0
-offset_bottom = 608.0
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 columns = 3
 
 [node name="Cell_0_0" type="Button" parent="GridContainer"]
-custom_minimum_size = Vector2(200, 200)
+custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 script = ExtResource("2_g38p6")
 
 [node name="Cell_0_1" type="Button" parent="GridContainer"]
-custom_minimum_size = Vector2(200, 200)
+custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 script = ExtResource("2_g38p6")
 
 [node name="Cell_0_2" type="Button" parent="GridContainer"]
-custom_minimum_size = Vector2(200, 200)
+custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 script = ExtResource("2_g38p6")
 
 [node name="Cell_1_0" type="Button" parent="GridContainer"]
-custom_minimum_size = Vector2(200, 200)
+custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 script = ExtResource("2_g38p6")
 
 [node name="Cell_1_1" type="Button" parent="GridContainer"]
-custom_minimum_size = Vector2(200, 200)
+custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 script = ExtResource("2_g38p6")
 
 [node name="Cell_1_2" type="Button" parent="GridContainer"]
-custom_minimum_size = Vector2(200, 200)
+custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 script = ExtResource("2_g38p6")
 
 [node name="Cell_2_0" type="Button" parent="GridContainer"]
-custom_minimum_size = Vector2(200, 200)
+custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 script = ExtResource("2_g38p6")
 
 [node name="Cell_2_1" type="Button" parent="GridContainer"]
-custom_minimum_size = Vector2(200, 200)
+custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 script = ExtResource("2_g38p6")
 
 [node name="Cell_2_2" type="Button" parent="GridContainer"]
-custom_minimum_size = Vector2(200, 200)
+custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 script = ExtResource("2_g38p6")
 
 [node name="Label" type="Label" parent="."]

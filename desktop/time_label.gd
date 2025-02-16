@@ -31,4 +31,5 @@ func _process(delta: float) -> void:
 				hour %= 24
 		
 		# Update the Label text.
-		text = str(hour) + ":" + str(minute)
+		var lbl_str = "%0*d:%0*d" 
+		text = lbl_str % [hour, minute]

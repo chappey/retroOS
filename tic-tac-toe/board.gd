@@ -1,4 +1,4 @@
-extends Node2D
+extends Control
 
 const GRID_SIZE = 3
 var board = []  # Stores quantum superpositions
@@ -29,7 +29,7 @@ func make_move(x, y):
 	board[x][y].append(move_id)
 
 	# Print the board state to debug what's happening
-	print_board()
+	#print_board()
 
 	if check_cycle():
 		collapse_board()
@@ -130,7 +130,7 @@ func check_winner():
 func check_game_end():
 	var winner = check_winner()
 	if winner != null:
-		print("Player", "X" if winner == "1" else "O", "wins!")  # Debugging
+		#print("Player", "X" if winner == "1" else "O", "wins!")  # Debugging
 		$Label.text = "Player " + ("X" if winner == "1" else "O") + " Wins!"
 		await get_tree().create_timer(2.0).timeout
 		get_tree().reload_current_scene()  # Restart game after 2 seconds
