@@ -1,0 +1,90 @@
+[gd_scene load_steps=2 format=3 uid="uid://blir3m1jxgk3b"]
+
+[ext_resource type="Script" path="res://QRPS/main.gd" id="1_rs1cr"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_rs1cr")
+
+[node name="RockSlider" type="HSlider" parent="."]
+custom_minimum_size = Vector2(200, 100)
+offset_left = 67.0
+offset_top = 73.0
+offset_right = 167.0
+offset_bottom = 173.0
+
+[node name="PaperSlider" type="HSlider" parent="."]
+custom_minimum_size = Vector2(200, 100)
+offset_left = 466.0
+offset_top = 76.0
+offset_right = 666.0
+offset_bottom = 176.0
+
+[node name="ScissorsSlider" type="HSlider" parent="."]
+custom_minimum_size = Vector2(200, 100)
+offset_left = 876.0
+offset_top = 69.0
+offset_right = 1076.0
+offset_bottom = 169.0
+
+[node name="ConfirmButton" type="Button" parent="."]
+custom_minimum_size = Vector2(200, 200)
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 476.0
+offset_top = 448.0
+offset_right = 676.0
+offset_bottom = 648.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ConfirmLabel" type="Label" parent="ConfirmButton"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -31.5
+offset_top = -24.5
+offset_right = 31.5
+offset_bottom = 24.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Confirm
+ Choice "
+
+[node name="OpponentMoveLabel" type="Label" parent="."]
+offset_left = 62.0
+offset_top = 440.0
+offset_right = 102.0
+offset_bottom = 463.0
+
+[node name="OutcomeLabel" type="Label" parent="."]
+offset_left = 853.0
+offset_top = 437.0
+offset_right = 893.0
+offset_bottom = 460.0
+
+[node name="RockLabel" type="Label" parent="."]
+offset_left = 92.0
+offset_top = 219.0
+offset_right = 132.0
+offset_bottom = 242.0
+text = "Rock"
+
+[node name="PaperLabel" type="Label" parent="."]
+offset_left = 551.0
+offset_top = 191.0
+offset_right = 591.0
+offset_bottom = 214.0
+text = "Paper"
+
+[node name="ScissorsLabel" type="Label" parent="."]
+offset_left = 959.0
+offset_top = 207.0
+offset_right = 999.0
+offset_bottom = 230.0
+text = "Scissors"
