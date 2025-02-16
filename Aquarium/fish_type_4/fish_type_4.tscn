@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cveaqk0h4uqjp"]
+
+[ext_resource type="Texture2D" uid="uid://cpcrlvpffq5o" path="res://Aquarium/fish_type_4/fish_type4.png" id="1_0k5x4"]
+[ext_resource type="Script" path="res://Aquarium/fish.gd" id="2_jafat"]
+
+[node name="Fish_Type1" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+auto_translate_mode = 1
+position = Vector2(209.75, 186.55)
+scale = Vector2(0.373, 0.273534)
+texture = ExtResource("1_0k5x4")
+script = ExtResource("2_jafat")
