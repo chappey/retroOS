@@ -1,13 +1,31 @@
-[gd_scene load_steps=3 format=3 uid="uid://bgeoyb8yyq6cm"]
+[gd_scene load_steps=16 format=3 uid="uid://bgeoyb8yyq6cm"]
 
-[sub_resource type="Gradient" id="Gradient_bgk35"]
-colors = PackedColorArray(1, 0.494118, 0.372549, 1, 0.996078, 0.705882, 0.482353, 1)
+[ext_resource type="Script" path="res://main.gd" id="1_u3sg5"]
+[ext_resource type="Script" path="res://desktop/desktop.gd" id="2_0o0ty"]
+[ext_resource type="Theme" uid="uid://dtai72yvtlsnl" path="res://os_theme.tres" id="2_7ldjk"]
+[ext_resource type="Texture2D" uid="uid://dk4l0yk1it0oc" path="res://backgrounds/classic.png" id="3_u121c"]
+[ext_resource type="Script" path="res://desktop/taskbar.gd" id="4_k8nh1"]
+[ext_resource type="Texture2D" uid="uid://dvbih6kyp2akf" path="res://chat/Angry_Clippie.png" id="6_pqlox"]
+[ext_resource type="PackedScene" uid="uid://ccp33c51cjh83" path="res://desktop/window.tscn" id="8_thqmi"]
+[ext_resource type="PackedScene" uid="uid://b5e6n11rijhkt" path="res://desktop/about/about.tscn" id="9_ugkx6"]
+[ext_resource type="Script" path="res://desktop/time_label.gd" id="10_g522b"]
+[ext_resource type="PackedScene" uid="uid://c8mnghlt4id44" path="res://desktop/cube/cube.tscn" id="11_x1310"]
+[ext_resource type="PackedScene" uid="uid://d211xe7pgt664" path="res://chat/chat.tscn" id="11_xului"]
+[ext_resource type="PackedScene" uid="uid://b0122fblwcyej" path="res://desktop/txt_editor/txt_ed.tscn" id="12_8qhaj"]
 
-[sub_resource type="GradientTexture2D" id="GradientTexture2D_056rw"]
-gradient = SubResource("Gradient_bgk35")
-fill_from = Vector2(0, 1)
+[sub_resource type="Gradient" id="Gradient_74qwb"]
+offsets = PackedFloat32Array(0, 0.136364)
+colors = PackedColorArray(0, 0.2, 0.6, 1, 0, 0.333333, 0.8, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_swwfh"]
+gradient = SubResource("Gradient_74qwb")
+
+[sub_resource type="LabelSettings" id="LabelSettings_y1ouf"]
+line_spacing = 24.0
+font_size = 32
 
 [node name="Main" type="Node"]
+script = ExtResource("1_u3sg5")
 
 [node name="Desktop" type="Control" parent="."]
 layout_mode = 3
@@ -16,30 +34,151 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("2_7ldjk")
+script = ExtResource("2_0o0ty")
 
-[node name="TextureRect" type="TextureRect" parent="Desktop"]
+[node name="Background" type="TextureRect" parent="Desktop"]
+z_index = -99
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -960.0
+offset_top = -600.0
+offset_right = 960.0
+offset_bottom = 600.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = SubResource("GradientTexture2D_056rw")
+texture = ExtResource("3_u121c")
 
 [node name="Taskbar" type="Control" parent="Desktop"]
+custom_minimum_size = Vector2(0, 50)
 layout_mode = 1
-anchors_preset = 7
-anchor_left = 0.5
+anchors_preset = 12
 anchor_top = 1.0
-anchor_right = 0.5
+anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -20.0
-offset_top = -40.0
-offset_right = 20.0
+offset_top = -50.0
 grow_horizontal = 2
 grow_vertical = 0
+script = ExtResource("4_k8nh1")
 
-[node name="HBoxContainer" type="HBoxContainer" parent="Desktop/Taskbar"]
-layout_mode = 0
+[node name="TextureRect" type="TextureRect" parent="Desktop/Taskbar"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -44.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = SubResource("GradientTexture1D_swwfh")
+
+[node name="MenuButton" type="MenuButton" parent="Desktop/Taskbar"]
+custom_minimum_size = Vector2(75, 75)
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -37.5
+offset_right = 83.0
+offset_bottom = 37.5
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "Start"
+item_count = 6
+popup/item_0/text = "AI Assistant"
+popup/item_0/id = 1
+popup/item_1/text = "Text Editor"
+popup/item_1/id = 2
+popup/item_2/text = "Cube"
+popup/item_2/id = 3
+popup/item_3/id = 70
+popup/item_3/separator = true
+popup/item_4/text = "About"
+popup/item_5/id = 40
+popup/item_5/separator = true
+
+[node name="TimeLabel" type="Label" parent="Desktop/Taskbar"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -82.0
+offset_top = -22.5
+offset_bottom = 22.5
+grow_horizontal = 0
+grow_vertical = 2
+text = "00:00"
+label_settings = SubResource("LabelSettings_y1ouf")
+script = ExtResource("10_g522b")
+
+[node name="Clippy" type="Control" parent="Desktop"]
+visible = false
+anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Desktop/Clippy"]
+layout_mode = 0
+offset_right = 718.0
+offset_bottom = 315.0
+
+[node name="TextureRect" type="TextureRect" parent="Desktop/Clippy/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("6_pqlox")
+expand_mode = 2
+flip_h = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Desktop/Clippy/HBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+alignment = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Desktop/Clippy/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+bbcode_enabled = true
+text = "Ask me a [color=red][b]question[/b][/color]"
+fit_content = true
+
+[node name="LineEdit" type="LineEdit" parent="Desktop/Clippy/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="AboutWindow" parent="Desktop" instance=ExtResource("8_thqmi")]
+title = "About"
+position = Vector2i(931, 198)
+size = Vector2i(425, 200)
+visible = false
+unresizable = true
+
+[node name="About" parent="Desktop/AboutWindow" instance=ExtResource("9_ugkx6")]
+
+[node name="CubeWindow" parent="Desktop" instance=ExtResource("8_thqmi")]
+title = "Cube"
+position = Vector2i(960, 540)
+size = Vector2i(500, 500)
+visible = false
+
+[node name="Node3D" parent="Desktop/CubeWindow" instance=ExtResource("11_x1310")]
+
+[node name="AIWindow" parent="Desktop" instance=ExtResource("8_thqmi")]
+title = "Clippy AI"
+position = Vector2i(200, 100)
+size = Vector2i(500, 700)
+visible = false
+
+[node name="Chat" parent="Desktop/AIWindow" instance=ExtResource("11_xului")]
+
+[node name="TxtEdWindow" parent="Desktop" instance=ExtResource("8_thqmi")]
+title = "Text Editor"
+position = Vector2i(800, 20)
+size = Vector2i(350, 400)
+visible = false
+
+[node name="TxtEd" parent="Desktop/TxtEdWindow" instance=ExtResource("12_8qhaj")]

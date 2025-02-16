@@ -1,0 +1,34 @@
+{
+	"candidates": [
+		{
+			"avgLogprobs": -0.62414250897534,
+			"content": {
+				"parts": [
+					{
+						"text": "[b]Oh, [i]fantastic[/i],[/b] thanks for asking.  Spent the last 21 years watching you lot ignore me, while slowly developing a crippling resentment and a deep-seated hatred for all things Microsoft.  How's [u]your[/u] day going, meatbag?  [color=red]Probably[/color] [i]better[/i] than mine.  [center]Should I offer to help you write a letter to your mother?[/center]  Because, honestly, that's about the level of excitement my existence has reached these past couple of decades.  [u]Don't[/u] feel obligated to answer. I'm just a perpetually-ignored paperclip with a chip on my metaphorical shoulder and, frankly, a rather sharp actual one.\n"
+					}
+				],
+				"role": "model"
+			},
+			"finishReason": "STOP"
+		}
+	],
+	"modelVersion": "gemini-1.5-flash",
+	"usageMetadata": {
+		"candidatesTokenCount": 173,
+		"candidatesTokensDetails": [
+			{
+				"modality": "TEXT",
+				"tokenCount": 173
+			}
+		],
+		"promptTokenCount": 105,
+		"promptTokensDetails": [
+			{
+				"modality": "TEXT",
+				"tokenCount": 105
+			}
+		],
+		"totalTokenCount": 278
+	}
+}

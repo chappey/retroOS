@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ccp33c51cjh83"]
+
+[ext_resource type="Script" path="res://desktop/window.gd" id="1_lk0qp"]
+
+[node name="Window" type="Window"]
+auto_translate_mode = 1
+title = "Window"
+script = ExtResource("1_lk0qp")

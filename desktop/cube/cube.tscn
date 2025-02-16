@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://c8mnghlt4id44"]
+
+[ext_resource type="Script" path="res://desktop/cube.gd" id="1_24dtf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aedm1"]
+albedo_color = Color(0.00784314, 1, 1, 1)
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_j5kf0"]
+
+[sub_resource type="Sky" id="Sky_jj0ab"]
+sky_material = SubResource("ProceduralSkyMaterial_j5kf0")
+
+[sub_resource type="Environment" id="Environment_ymivy"]
+background_mode = 3
+sky = SubResource("Sky_jj0ab")
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_24dtf")
+
+[node name="Label3D" type="Label3D" parent="."]
+text = "This is a test"
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+material_override = SubResource("StandardMaterial3D_aedm1")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.64679, -0.171563, 0.743121, 0, 0.97437, 0.224951, -0.762668, -0.145496, 0.630213, 1.31939, 0.373564, 1.1826)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_ymivy")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.655835, 0.754904, 0, -0.754904, 0.655835, 0, 1.05687, 0)

@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://d211xe7pgt664"]
+
+[ext_resource type="Script" path="res://chat/chat.gd" id="1_5cqrs"]
+[ext_resource type="PackedScene" uid="uid://c4a5paudrc8m8" path="res://chat/chat_bubble.tscn" id="2_1krop"]
+
+[node name="Chat" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5cqrs")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 983.0
+grow_horizontal = 2
+
+[node name="PanelContainer" parent="VBoxContainer" instance=ExtResource("2_1krop")]
+layout_mode = 2
+
+[node name="LineEdit" type="LineEdit" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -400.0
+offset_top = -66.0
+offset_right = 401.0
+grow_horizontal = 2
+grow_vertical = 0
+placeholder_text = "Prompt Clippy"
+alignment = 1
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[connection signal="text_submitted" from="LineEdit" to="." method="_on_line_edit_text_submitted"]
